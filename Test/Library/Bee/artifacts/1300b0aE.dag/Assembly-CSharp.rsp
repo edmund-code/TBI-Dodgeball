@@ -505,8 +505,10 @@
 -analyzer:"/Applications/Unity/Hub/Editor/6000.0.33f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/AurynSky/Dungeon Pack/Scripts/SpikeTrapDemo.cs"
 "Assets/AurynSky/Dungeon Pack/Scripts/TrapDoorDemo.cs"
+"Assets/DeleteBullet.cs"
 "Assets/EnemyAIScript.cs"
 "Assets/EnemySpawn.cs"
+"Assets/Temp.cs"
 -langversion:9.0
 /deterministic
 /optimize+

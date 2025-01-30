@@ -25,9 +25,9 @@ public class EnemyAIScript : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
-    private void Awake()
+    private void Start()
     {
-        player = GameObject.Find("PlayerObj").transform;
+        player = GameObject.Find("playerobj").transform;
         agent = GetComponent<NavMeshAgent>();
     }
     private void Update()
@@ -45,6 +45,7 @@ public class EnemyAIScript : MonoBehaviour
         }
         if (playerInAttackRange && playerInSightRange)
         {
+            Debug.Log("Player in Attack Range");
             AttackPlayer();
         }
     }
@@ -125,5 +126,6 @@ public class EnemyAIScript : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, sightRange);
     }
 }
+
 
 

@@ -27,6 +27,7 @@ TagManager:
   - QDSUISection
   - Enemy
   - PlayerObj
+  - playerobj
   layers:
   - Default
   - TransparentFX
