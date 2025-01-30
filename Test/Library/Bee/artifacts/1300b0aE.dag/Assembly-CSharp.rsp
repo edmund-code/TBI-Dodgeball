@@ -506,8 +506,7 @@
 "Assets/AurynSky/Dungeon Pack/Scripts/SpikeTrapDemo.cs"
 "Assets/AurynSky/Dungeon Pack/Scripts/TrapDoorDemo.cs"
 "Assets/EnemyAIScript.cs"
-"Assets/EnemyScript.cs"
-"Assets/EnemySpawner.cs"
+"Assets/EnemySpawn.cs"
 -langversion:9.0
 /deterministic
 /optimize+
